@@ -15,7 +15,7 @@ from "sequences.txt" and output results to a file titled "hit_entries.fastq"
 * Biopython
 * pip install biopython
 
-## DOCKER INFORMATION
+## Docker Information
 * Docker image created for this program (see Dockerfile)
 * Save Dockerfile to a desired directory
 * To Build/Run Docker image:
