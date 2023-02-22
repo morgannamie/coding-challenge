@@ -26,6 +26,7 @@ Step 2 (run container): docker run -v $(pwd):/output/ python-codingchallenge
 ```
 * Alternatively, image be pulled from DockerHub repository using the bash script provided titled "invoke.sh"
 ```
-To pull from repository, give permission using command: chmod +x invoke.sh
-Calling script using ./invoke.sh should pull the image from the repository and create output files
+Give permission: chmod +x invoke.sh
+Calling script: ./invoke.sh 
 ```
+* This should pull the image from the repository and create the output files
