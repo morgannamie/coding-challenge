@@ -20,12 +20,14 @@ from "sequences.txt" and output results to a file titled "hit_entries.fastq"
 * Save Dockerfile to a desired directory
 * To Build/Run Docker image:
 '''
+
 Docker image can be built using command: docker build -t python-codingchallenge .
 Run using command: docker run -v $(pwd):/output/ python-codingchallenge
 '''
 * Alternatively, image be pulled from DockerHub repository using the bash script provided titled "invoke.sh"
 
 '''
+
 To pull from repository, give permission using command "chmod +x invoke.sh"
 Calling script using "./invoke.sh" should pull the image from the repository and create output files
 '''
